@@ -14,6 +14,11 @@ This module covers tool calling which enables LLMs to interact with external env
 
 This module covers an Agent Reasoning loop with memory to maintain chats. It makes use of two agents namely - an agent runner and an agent worker where the agent runner sees the overall tasks and orchestrates runs of the agent worker on top of a given task whereas the agent worker is responsible for executing the next step of the given agent.
 
+**Module 4** - [Building_a_Multi-Document_Agent](https://github.com/AashiDutt/Agentic-RAG-with-LLAMAIndex/blob/main/%5BCOURSE%5DL4_Building_a_Multi-Document_Agent.ipynb)
+
+This module covers two techniques to work with multiple documents. One for limited docs like 2-3 papers and one for a large number of documents like 100 papers. Initially both methods read documents and convert them into tools, then if the number of documents is small(say 2) then pass in the query to one of the 6 (2 tools per doc (vector tool and summary tool)) and get the response. Idf the number of documents is large say 11 documents then we use object retriever method. The object retriever method retrieves a small set of relevant tools and then feeds those relevant tools to the agent reasoning prompt instead of all calls thereby saving the cost of making too many calls and saving LLM from getting confused with too many tools to choose from.
+
+
 -----------------------------------------------------------------------------------------------------
 ## **Requirements:**
 
