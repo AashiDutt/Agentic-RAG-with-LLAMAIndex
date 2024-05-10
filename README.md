@@ -8,7 +8,11 @@ This module covers the Router query engine, featuring a vector index(returns sim
 
 **Module 2** - [Tool Calling](https://github.com/AashiDutt/Agentic-RAG-with-LLAMAIndex/blob/main/%5BCOURSE%5DL2_Tool_Calling.ipynb)
 
-This module covers tool calling which enables LLMs to interact with external environments through dynamic interface by choosing appropriate tools and inferring necessary arguments for execution. It adds a layer of query understanding that enables users to ask complex queries and get more precise results. It also covers Auto Retrieval tool where we use MetadataFilters to filter out response as per metadata such as page number, header, footer, etc.
+This module covers tool calling which enables LLMs to interact with external environments through dynamic interface by choosing appropriate tools and inferring necessary arguments for execution. It adds a layer of query understanding that enables users to ask complex queries and get more precise results. It also covers the Auto Retrieval tool where we use MetadataFilters to filter out responses as per metadata such as page number, header, footer, etc.
+
+**Module 3** - [Building an Agent Reasoning Loop](https://github.com/AashiDutt/Agentic-RAG-with-LLAMAIndex/blob/main/%5BCOURSE%5D%20L3_Building_an_Agent_Reasoning_Loop.ipynb)
+
+This module covers an Agent Reasoning loop with memory to maintain chats. It makes use of two agents namely - an agent runner and an agent worker where the agent runner sees the overall tasks and orchestrates runs of the agent worker on top of a given task whereas the agent worker is responsible for executing the next step of the given agent.
 
 -----------------------------------------------------------------------------------------------------
 ## **Requirements:**
