@@ -8,8 +8,8 @@ This module covers the Router query engine, featuring a vector index(returns sim
 
 **Module 2** 
 
-
-**Requirements:**
+-----------------------------------------------------------------------------------------------------
+## **Requirements:**
 
 Running [COURSE] code requires OPENAI API Key and some helper functions defined in **utils.py** along with the following:
 
